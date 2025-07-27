@@ -1,19 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-</head>
-<body>
-    <header>
-        {% include header.html %}
-    </header>
-    <main>
+---
+layout: default3
+title: Home Page
+---
+
+<p> test custom content 1</p>
 {% include include_study.html %}
-    </main>
-    <footer>
-        <p>&copy; {{ site.time | date: "%Y" }} My Jekyll Site</p>
-    </footer>
-</body>
-</html>
+<p> test custom content 2</p>
